@@ -59,16 +59,16 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
+  justify-content: space-between;
 
   & li {
-    margin-right: 20px;
-    padding-left: 5px;
-    max-width: 33%;
-    margin-bottom: 35px;
+    width: 15vw;
+    text-align: center;
+    margin-bottom: 25px;
 
-    & i {
-      font-size: 45px;
-      margin-right: 10px;
+    & img {
+      image-rendering: pixelated;
+      margin-bottom: 5px;
     }
   }
 }
